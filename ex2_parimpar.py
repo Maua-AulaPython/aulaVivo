@@ -8,3 +8,6 @@ def par(x):
 		print ("n eh par")
 
 par(a)
+
+# Nota: 1.0
+# Comentario: **

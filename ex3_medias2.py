@@ -8,4 +8,6 @@ while x>=0:
 mf=m/i
 print mf
 
+# Nota: 1.0
+# Comentario: *
 

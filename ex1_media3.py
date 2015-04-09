@@ -8,3 +8,5 @@ def media(x,y,z):
 
 print media(a,b,c)
 
+# Nota: 1.0
+# Comentario: bom uso de funcao
