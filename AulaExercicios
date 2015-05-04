@@ -10,6 +10,9 @@ y2=float(raw_input('Digite a coordenada x do ponto 2 -> '))
 d=sqrt((x1-x2)**2+(y1-y2)**2)
 print (d)
 
+# Nota: 0.5
+# O enunciado pede uma função
+
 #ex2
 
 from math import *
@@ -26,9 +29,12 @@ def pontos():
                 if (d>dmax):
                     dmax=d
     print (dmax)
-    
+
 print('Maior Distancia:')
-pontos()      
+pontos()
+
+# Nota: 1.0
+# Deveria ter utilizado a "função" do primeiro exercicio
 
 #ex3
 
@@ -45,6 +51,9 @@ r2=sqrt((x2)**2+(y2)**2)
 t2=atan2(y2,x2)
 print ("\nponto 1: \nR={0}\nAngulo={1}\n\nponto 2: \nR={2}\nAngulo={3}".format(r1,t1,r2,t2))
 
+# Nota: 0.5
+# Era pra calcular as coordenadas do vetor formado entre os dois pontos!
+
 #ex4
 
 a=float(raw_input('Digite a -> '))
@@ -57,7 +66,10 @@ if (c <= v1):
         print ('Triangulo de area {0}'.format(area))
 else:
         print ('Os pontos {0}, {1} e {2} nao formam um triangulo'.format(a,b,c))
-        
+
+
+# Nota: 0.5
+# O enunciado pede uma função
 
 #ex5
 
@@ -76,7 +88,7 @@ def lat(a,b):
 
 def lon(a,b,c):
         e=0.00669454185
-        ac=6378160 
+        ac=6378160
         n=1
         h=0
         i=0
@@ -87,10 +99,13 @@ def lon(a,b,c):
                 t=atan(prod)
                 n=ac/(sqrt(1-e*((sin(t))**2)))
                 h=(p/cos(t))-n
-                               
+
         teta=t*180/pi
         print ('latitude {0}'.format(teta))
         print ('altitude {0}'.format(h))
-              
+
 lat(x,y)
 lon(x,y,z)
+
+# Nota: 0.8
+# O enunciado pede uma função e não duas
