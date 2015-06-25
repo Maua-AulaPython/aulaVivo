@@ -19,3 +19,6 @@ if (i>0):
     print "Maior Nota ->", maior
 else:
     print "Nenhuma Nota"
+
+#Nota: 1.1
+#Comentario: Valia 1.0 mas dei +0.1 pela sintese do codigo.
